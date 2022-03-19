@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+.cust-bg-light{
+    background-color: #416CFA;
+}
+.cust-bg-dark{
+    background-color: #20357A;
+}
+
+.cust-text-light{
+    color: #416CFA;
+}
+
+.cust-text-dark{
+    color: #20357A;
+}
