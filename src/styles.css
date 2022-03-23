@@ -3,7 +3,8 @@
     background-color: #416CFA;
 }
 .cust-bg-dark{
-    background-color: #20357A;
+    /*background-color: #20357A;*/
+    background-color: #0F193B;
 }
 
 .cust-text-light{
@@ -11,5 +12,7 @@
 }
 
 .cust-text-dark{
-    color: #20357A;
+    /*color: #20357A;*/
+    color: #0F193B;
+
 }
