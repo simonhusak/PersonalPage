@@ -17,7 +17,7 @@
                     front end and back end. This allowed me to get insights into various programming languages and
                     frameworks.
                 </p>
-                <div class="container-fluid row justify-content-center">
+                <div class="container-fluid row justify-content-center p-0">
                     <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
                         <h5 class="text-center m-0">Programming languages</h5>
                         <progress-bar name="Java" [progress]='80' [margintop]='1'></progress-bar>
@@ -30,9 +30,17 @@
                         <progress-bar name="Angular" [progress]='50'></progress-bar>
                     </div>
                 </div>
-                <div class="container-fluid row justify-content-center mt-1">
-                    <h4 class="text-center m-0">Certificates</h4>
-                    <certificate></certificate>
+                <div class="container-fluid justify-content-center mt-1 p-0">
+                    <h4 class="text-center m-0 mt-2">Certificates</h4>
+                    <div class="row justify-content-center">
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mt-2"> <!--When adding a new certificate, copy also the div!-->
+                            <certificate name="Cisco" desc="CCNA: Introduction to Networks"
+                                date="September 2021"
+                                imageUrl="https://logosvector.net/wp-content/uploads/2011/08/cisco-logo-vector.png">
+                            </certificate>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
