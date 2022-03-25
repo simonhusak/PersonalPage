@@ -20,14 +20,14 @@
                 <div class="container-fluid row justify-content-center p-0">
                     <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
                         <h5 class="text-center m-0">Programming languages</h5>
-                        <progress-bar name="Java" [progress]='80' [margintop]='1'></progress-bar>
-                        <progress-bar name="HTML + CSS" [progress]='100'></progress-bar>
-                        <progress-bar name="TypeScript" [progress]='30'></progress-bar>
+                        <progress-bar name="Java" [progress]='80' [margintop]='1' [type]="types.YEARS"></progress-bar>
+                        <progress-bar name="HTML + CSS" [progress]='100'[type]="types.YEARS"></progress-bar>
+                        <progress-bar name="TypeScript" [progress]='30' [type]="types.YEARS"></progress-bar>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <h5 class="text-center m-0">APIs, frameworks and libraries</h5>
-                        <progress-bar name="Spring" [progress]='60' [margintop]="1"></progress-bar>
-                        <progress-bar name="Angular" [progress]='50'></progress-bar>
+                        <progress-bar name="Spring" [progress]='60' [margintop]="1" [type]="types.YEARS"></progress-bar>
+                        <progress-bar name="Angular" [progress]='50' [type]="types.PERCENT"></progress-bar>
                     </div>
                 </div>
                 <div class="container-fluid justify-content-center mt-1 p-0">
