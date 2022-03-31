@@ -9,7 +9,8 @@ import { ContactComponent } from './about/contact/contact.component';
 import { InfoComponent } from './about/info/info.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProgressBarComponent } from './skills/progress-bar/progress-bar.component';
-import { CertificateComponent } from './skills/certificate/certificate.component';
+import { SkillComponent } from './skills/skill/skill.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CertificateComponent } from './skills/certificate/certificate.component
     InfoComponent,
     SkillsComponent,
     ProgressBarComponent,
-    CertificateComponent
+    SkillComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

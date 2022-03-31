@@ -1,11 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'certificate',
-  templateUrl: './certificate.component.html',
-  styleUrls: ['./certificate.component.css']
+  selector: 'skill',
+  templateUrl: './skill.component.html',
+  styleUrls: ['./skill.component.css']
 })
-export class CertificateComponent implements OnInit {
+export class SkillComponent implements OnInit {
   @Input()
   name: string;
   @Input()
@@ -14,6 +14,10 @@ export class CertificateComponent implements OnInit {
   date: string;
   @Input()
   imageUrl: string;
+  @Input()
+  url: string;
+  @Input()
+  location: string;
   constructor() { }
 
   ngOnInit(): void {

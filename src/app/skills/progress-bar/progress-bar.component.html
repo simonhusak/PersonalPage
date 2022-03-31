@@ -1,4 +1,4 @@
-<div *ngIf="type==1" class="ps-3 pe-3 mt-{{margintop}}"> {{type}}
+<div *ngIf="type==1" class="ps-3 pe-3 mt-{{margintop}}">
     <div class="d-flex justify-content-between">
         <span>{{name}}</span>
         <span>{{progress}}%</span>
@@ -9,10 +9,10 @@
     </div>
 </div>
 
-<div *ngIf="type==0" class="ps-3 pe-3 mt-{{margintop}}"> {{type}}
+<div *ngIf="type==0" class="ps-3 pe-3 mt-{{margintop}}">
     <div class="d-flex justify-content-between">
         <span>{{name}}</span>
-        <span>{{progress}} years</span>
+        <span>{{years}} years</span>
     </div>
     <div class="progress">
         <div class="progress-bar cust-bg-light" role="progressbar" [style.width]="progress+'%'"

@@ -1,0 +1,27 @@
+<a *ngIf="url; else noUrl" href="{{url}}" target="_blank" class="text-black text-decoration-none">
+<div class="d-flex justify-content-center align-items-center">
+    <div class="skill-pic w-25">
+        <img class="w-100" src="{{imageUrl}}">
+    </div>
+    <div class="ps-2 w-75">
+        <h6 class="m-0 text-decoration-underline"><b>{{name}}</b></h6>
+        <p class="m-0">{{desc}}</p>
+        <p *ngIf="location" class="m-0">{{location}}</p>
+        <p class="m-0">{{date}}</p>
+    </div>
+</div>
+</a>
+
+<ng-template #noUrl>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="skill-pic w-25">
+            <img class="w-100" src="{{imageUrl}}">
+        </div>
+        <div class="ps-2 w-75">
+            <h6 class="m-0"><b>{{name}}</b></h6>
+            <p class="m-0">{{desc}}</p>
+            <p *ngIf="location" class="m-0">{{location}}</p>
+            <p class="m-0">{{date}}</p>
+        </div>
+    </div>
+</ng-template>

@@ -16,11 +16,12 @@ export class ProgressBarComponent implements OnInit {
   margintop: number = 3;
   @Input() 
   type: number;
+  @Input()
+  years: number;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log("Type: ", this.type);
   }
 
 }
