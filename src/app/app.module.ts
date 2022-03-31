@@ -11,6 +11,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProgressBarComponent } from './skills/progress-bar/progress-bar.component';
 import { SkillComponent } from './skills/skill/skill.component';
 import { BannerComponent } from './banner/banner.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { LinkComponent } from './contacts/link/link.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { BannerComponent } from './banner/banner.component';
     SkillsComponent,
     ProgressBarComponent,
     SkillComponent,
-    BannerComponent
+    BannerComponent,
+    ContactsComponent,
+    LinkComponent
   ],
   imports: [
     BrowserModule,
